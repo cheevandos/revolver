@@ -1,0 +1,28 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v15-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v15-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  font-family: 'Montserrat';
+}
+
+.round-border-message {
+  border-radius: 1.25rem;
+  border-bottom-left-radius: 0;
+}
+
+.round-border-img {
+  border-radius: 50%;
+  border: 3px solid #212529;
+}
+
+.user {
+  height: 60px;
+}
+
