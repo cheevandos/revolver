@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 60px;
+}
+button {
+    margin-right: 60px;
+}
