@@ -12,6 +12,10 @@
   font-family: 'Montserrat';
 }
 
+.bg-black {
+  background-color: rgb(25, 25, 25)
+}
+
 .round-border-message {
   border-radius: 1.25rem;
   border-bottom-left-radius: 0;
@@ -25,4 +29,3 @@
 .user {
   height: 60px;
 }
-
